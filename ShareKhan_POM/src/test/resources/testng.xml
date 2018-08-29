@@ -3,14 +3,22 @@
 
 <suite name="ShareKhan Application Test Automation Test Suite">
 	
+	<listeners>
+	<listener class-name="com.sk.listeners.ExtentReporterNG"></listener>
+	</listeners>
+	
 	<test name="ShareKhan App Test cases">
 
 		<classes>
 			<class name="com.sk.testScripts.TC_001_LaunchingPageTest"></class>
-			<class name="com.sk.testScripts.TC_002_HomePageTest"></class>
-
 		</classes>
-	
+		
+	</test> <!-- Test -->
+		
+		<test name="Tc_0002">
+		<classes>
+			<class name="com.sk.testScripts.TC_002_HomePageTest"></class>
+		</classes>
 	</test> <!-- Test -->
 
 </suite> <!-- Suite -->

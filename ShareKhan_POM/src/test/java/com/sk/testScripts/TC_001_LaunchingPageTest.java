@@ -1,5 +1,6 @@
 package com.sk.testScripts;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -11,29 +12,33 @@ public class TC_001_LaunchingPageTest extends TestBase {
 
 	Page_001_LaunchingSharekhanPage launchingPage;
 
+	Logger log= Logger.getLogger(TC_001_LaunchingPageTest.class);
+	
 	public TC_001_LaunchingPageTest() {
 		super();
 	}
 
 	@BeforeMethod
 	public void setUp() {
+		log.info("Start initialization method");
 		initialization();
 		launchingPage = new Page_001_LaunchingSharekhanPage();
 	}
 
 	@Test(priority = 1)
 	public void launchingPageTitleTest() {
+		log.info("Start Test");
 		String expTitle = "Sharekhan, Stock Market, Online Share Trading, Online Broking, Market Today, Live Quotes, Sensex, Nifty.";
 		String title = launchingPage.validateTitle();
 		Assert.assertEquals(title, expTitle, "Launching Page Title Not Match");
 	}
 
+	
 	@Test(priority = 2)
 	public void validateVisitHomePageButtonTest() {
 		boolean flag = launchingPage.validateVisitHomePageButton();
 		Assert.assertTrue(flag);
 	}
-
 	@Test(priority = 3)
 	public void validateTradeNowButtonTest() {
 		boolean flag = launchingPage.validateTradeNowButton();
