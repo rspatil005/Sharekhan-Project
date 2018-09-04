@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.sk.listeners.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Tc_0002(failed)">
+  <test thread-count="5" name="Tc_002(failed)">
     <classes>
       <class name="com.sk.testScripts.TC_002_HomePageTest">
         <methods>
@@ -14,5 +14,5 @@
         </methods>
       </class> <!-- com.sk.testScripts.TC_002_HomePageTest -->
     </classes>
-  </test> <!-- Tc_0002(failed) -->
+  </test> <!-- Tc_002(failed) -->
 </suite> <!-- Failed suite [ShareKhan Application Test Automation Test Suite] -->

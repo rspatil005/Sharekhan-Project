@@ -15,7 +15,9 @@
 		
 	</test> <!-- Test -->
 		
-		<test name="Tc_0002">
+		
+	
+		<test name="Tc_002">
 		<classes>
 			<class name="com.sk.testScripts.TC_002_HomePageTest"></class>
 		</classes>

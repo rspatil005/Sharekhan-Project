@@ -12,8 +12,6 @@ public class Page_002_HomePage extends TestBase{
 	
 	TestUtil util=new TestUtil();
 	
-	/*@FindBy(xpath="//*[@id='CloseDiv']")
-	public WebElement closeAdBtn;*/
 	
 	@FindBy(xpath="//img[@title='Sharekhan Logo']")
 	public WebElement shareKhanLogo;
@@ -24,11 +22,9 @@ public class Page_002_HomePage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-/*	public void closeAd(){
-		util.wait(By.xpath("//*[@id='CloseDiv']"));
-		driver.findElement(By.xpath("//*[@id='CloseDiv']")).click();
-	}*/
-	
+	public void closeAd(){
+		driver.findElement(By.xpath(".//*[text()='X']")).click();
+	}
 	public boolean verifyShareKhanLogo(){
 		return shareKhanLogo.isDisplayed();
 	}

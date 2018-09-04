@@ -55,11 +55,9 @@ public class Page_001_LaunchingSharekhanPage extends TestBase {
 
 		return TigersGalleryButton.isDisplayed();
 	}
-	public Page_002_HomePage clickOnVisitHomePageButton() {
+	public Page_002_HomePage clickOnVisitHomePageButton() throws InterruptedException {
 		 VisitHomePageButton.click();
 		 return new Page_002_HomePage();
 	}
-	
-	
 
 }
