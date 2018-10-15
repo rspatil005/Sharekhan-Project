@@ -1,61 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="ShareKhan Application Test Automation Test Suite" duration-ms="35526" started-at="2018-09-04T06:38:49Z" finished-at="2018-09-04T06:39:24Z">
+  <suite name="ShareKhan Application Test Automation Test Suite" duration-ms="44588" started-at="2018-09-04T09:53:13Z" finished-at="2018-09-04T09:53:58Z">
     <groups>
     </groups>
-    <test name="ShareKhan App Test cases" duration-ms="10855" started-at="2018-09-04T06:38:49Z" finished-at="2018-09-04T06:39:00Z">
+    <test name="ShareKhan App Test cases- TC_001" duration-ms="12439" started-at="2018-09-04T09:53:13Z" finished-at="2018-09-04T09:53:26Z">
       <class name="com.sk.testScripts.TC_001_LaunchingPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="setUp" is-config="true" duration-ms="9891" started-at="2018-09-04T06:38:49Z" finished-at="2018-09-04T06:38:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="setUp" is-config="true" duration-ms="10459" started-at="2018-09-04T09:53:13Z" finished-at="2018-09-04T09:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="launchingPageTitleTest()[pri:1, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="launchingPageTitleTest" duration-ms="13" started-at="2018-09-04T06:38:59Z" finished-at="2018-09-04T06:38:59Z">
+        <test-method status="PASS" signature="launchingPageTitleTest()[pri:1, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="launchingPageTitleTest" duration-ms="17" started-at="2018-09-04T09:53:24Z" finished-at="2018-09-04T09:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingPageTitleTest -->
-        <test-method status="PASS" signature="validateVisitHomePageButtonTest()[pri:2, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateVisitHomePageButtonTest" duration-ms="44" started-at="2018-09-04T06:38:59Z" finished-at="2018-09-04T06:38:59Z">
+        <test-method status="PASS" signature="validateVisitHomePageButtonTest()[pri:2, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateVisitHomePageButtonTest" duration-ms="70" started-at="2018-09-04T09:53:24Z" finished-at="2018-09-04T09:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateVisitHomePageButtonTest -->
-        <test-method status="PASS" signature="validateTradeNowButtonTest()[pri:3, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateTradeNowButtonTest" duration-ms="52" started-at="2018-09-04T06:38:59Z" finished-at="2018-09-04T06:38:59Z">
+        <test-method status="PASS" signature="validateTradeNowButtonTest()[pri:3, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateTradeNowButtonTest" duration-ms="48" started-at="2018-09-04T09:53:24Z" finished-at="2018-09-04T09:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTradeNowButtonTest -->
-        <test-method status="PASS" signature="validateOpenAnAccountButtonTest()[pri:4, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateOpenAnAccountButtonTest" duration-ms="54" started-at="2018-09-04T06:38:59Z" finished-at="2018-09-04T06:38:59Z">
+        <test-method status="PASS" signature="validateOpenAnAccountButtonTest()[pri:4, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateOpenAnAccountButtonTest" duration-ms="57" started-at="2018-09-04T09:53:24Z" finished-at="2018-09-04T09:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateOpenAnAccountButtonTest -->
-        <test-method status="PASS" signature="validateNeedHelpButtonTest()[pri:5, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateNeedHelpButtonTest" duration-ms="36" started-at="2018-09-04T06:38:59Z" finished-at="2018-09-04T06:38:59Z">
+        <test-method status="PASS" signature="validateNeedHelpButtonTest()[pri:5, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateNeedHelpButtonTest" duration-ms="48" started-at="2018-09-04T09:53:24Z" finished-at="2018-09-04T09:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNeedHelpButtonTest -->
-        <test-method status="PASS" signature="validateTigersGalleryButtonTest()[pri:6, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateTigersGalleryButtonTest" duration-ms="36" started-at="2018-09-04T06:38:59Z" finished-at="2018-09-04T06:38:59Z">
+        <test-method status="PASS" signature="validateTigersGalleryButtonTest()[pri:6, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="validateTigersGalleryButtonTest" duration-ms="87" started-at="2018-09-04T09:53:24Z" finished-at="2018-09-04T09:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTigersGalleryButtonTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="tearDown" is-config="true" duration-ms="699" started-at="2018-09-04T06:38:59Z" finished-at="2018-09-04T06:39:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sk.testScripts.TC_001_LaunchingPageTest@1c79255]" name="tearDown" is-config="true" duration-ms="1621" started-at="2018-09-04T09:53:24Z" finished-at="2018-09-04T09:53:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.sk.testScripts.TC_001_LaunchingPageTest -->
-    </test> <!-- ShareKhan App Test cases -->
-    <test name="Tc_002" duration-ms="24635" started-at="2018-09-04T06:39:00Z" finished-at="2018-09-04T06:39:24Z">
+    </test> <!-- ShareKhan App Test cases- TC_001 -->
+    <test name="ShareKhan App Test cases- TC_002" duration-ms="32099" started-at="2018-09-04T09:53:26Z" finished-at="2018-09-04T09:53:58Z">
       <class name="com.sk.testScripts.TC_002_HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sk.testScripts.TC_002_HomePageTest@1660f4e]" name="setUp" is-config="true" duration-ms="23893" started-at="2018-09-04T06:39:00Z" finished-at="2018-09-04T06:39:24Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="setUp" is-config="true" duration-ms="30910" started-at="2018-09-04T09:53:26Z" finished-at="2018-09-04T09:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyShareKhanLogoTest()[pri:0, instance:com.sk.testScripts.TC_002_HomePageTest@1660f4e]" name="verifyShareKhanLogoTest" duration-ms="63" started-at="2018-09-04T06:39:24Z" finished-at="2018-09-04T06:39:24Z">
+        <test-method status="PASS" signature="launchingPageTitleTest()[pri:1, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="launchingPageTitleTest" duration-ms="8" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingPageTitleTest -->
+        <test-method status="PASS" signature="verifyShareKhanLogoTest()[pri:2, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifyShareKhanLogoTest" duration-ms="58" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyShareKhanLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sk.testScripts.TC_002_HomePageTest@1660f4e]" name="tearDown" is-config="true" duration-ms="675" started-at="2018-09-04T06:39:24Z" finished-at="2018-09-04T06:39:24Z">
+        <test-method status="PASS" signature="verifyMenuLinks_AllTest()[pri:3, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifyMenuLinks_AllTest" duration-ms="52" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuLinks_AllTest -->
+        <test-method status="PASS" signature="verifyRadioButtons_AllTest()[pri:4, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifyRadioButtons_AllTest" duration-ms="48" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtons_AllTest -->
+        <test-method status="PASS" signature="verifySearchTextBoxTest()[pri:5, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifySearchTextBoxTest" duration-ms="45" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchTextBoxTest -->
+        <test-method status="PASS" signature="verifyGoButtonTest()[pri:6, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifyGoButtonTest" duration-ms="45" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoButtonTest -->
+        <test-method status="PASS" signature="verifyLeftSideMenu_AllTest()[pri:7, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifyLeftSideMenu_AllTest" duration-ms="46" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeftSideMenu_AllTest -->
+        <test-method status="PASS" signature="verifySelectDropDownTest()[pri:8, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifySelectDropDownTest" duration-ms="53" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectDropDownTest -->
+        <test-method status="PASS" signature="verifyMobileNumTextBoxTest()[pri:9, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifyMobileNumTextBoxTest" duration-ms="83" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobileNumTextBoxTest -->
+        <test-method status="PASS" signature="verifySubmitButtonTest()[pri:10, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifySubmitButtonTest" duration-ms="40" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmitButtonTest -->
+        <test-method status="PASS" signature="verifyStockBoardTest()[pri:11, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="verifyStockBoardTest" duration-ms="43" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockBoardTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sk.testScripts.TC_002_HomePageTest@8806ef]" name="tearDown" is-config="true" duration-ms="654" started-at="2018-09-04T09:53:57Z" finished-at="2018-09-04T09:53:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.sk.testScripts.TC_002_HomePageTest -->
-    </test> <!-- Tc_002 -->
+    </test> <!-- ShareKhan App Test cases- TC_002 -->
   </suite> <!-- ShareKhan Application Test Automation Test Suite -->
 </testng-results>

@@ -27,9 +27,10 @@ public class Page_001_LaunchingSharekhanPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
+/*	//For- Tc_001
 	public String validateTitle() {
 		return driver.getTitle();
-	}
+	}*/
 
 	public boolean validateVisitHomePageButton() {
 
@@ -55,6 +56,9 @@ public class Page_001_LaunchingSharekhanPage extends TestBase {
 
 		return TigersGalleryButton.isDisplayed();
 	}
+	
+	
+	// For Tc_002 
 	public Page_002_HomePage clickOnVisitHomePageButton() throws InterruptedException {
 		 VisitHomePageButton.click();
 		 return new Page_002_HomePage();

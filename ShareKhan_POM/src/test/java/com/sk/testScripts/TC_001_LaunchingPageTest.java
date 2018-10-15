@@ -31,7 +31,7 @@ public class TC_001_LaunchingPageTest extends TestBase {
 	public void launchingPageTitleTest() {
 		log.info("Start Test");
 		String expTitle = "Sharekhan, Stock Market, Online Share Trading, Online Broking, Market Today, Live Quotes, Sensex, Nifty.";
-		String title = launchingPage.validateTitle();
+		String title = validateTitle();
 		Assert.assertEquals(title, expTitle, "Launching Page Title Not Match");
 	}
 
@@ -64,8 +64,6 @@ public class TC_001_LaunchingPageTest extends TestBase {
 		boolean flag = launchingPage.validateTigersGalleryButton();
 		Assert.assertTrue(flag);
 	}
-	
-	
 
 	@AfterClass
 	public void tearDown() {

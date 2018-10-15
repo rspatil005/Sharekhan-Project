@@ -47,5 +47,11 @@ public class TestBase {
 
 		driver.get(prop.getProperty("url"));
 	}
+	
+	// For Validating Titles Of WebPage
+	public String validateTitle() {
+		return driver.getTitle();
+	}
+
 
 }
